@@ -24,7 +24,7 @@ body:
     attributes:
       label: Checked for duplicate issues?
       options:
-        - label: I have checked existing [open issues](https://github.com/ashwinexe/awesome-anvil/issues) for duplicates.
+        - label: I have checked existing [open issues](https://github.com/anvil-works/awesome-anvil/issues) for duplicates.
           required: true
     validations:
       required: true
