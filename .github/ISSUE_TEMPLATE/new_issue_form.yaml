@@ -18,13 +18,13 @@ body:
       placeholder: Please elaborate your issue as much as possible
   - type: textarea
     attributes:
-      lable: Screenshots and Logs
+      label: Screenshots and Logs
       placeholder: Please attach and screenshots and logs in this section
   - type: checkboxes
     attributes:
       label: Checked for duplicate issues?
       options:
-        - labels: I have checked existing [open issues](https://github.com/ashwinexe/awesome-anvil/issues) for duplicates.
+        - label: I have checked existing [open issues](https://github.com/ashwinexe/awesome-anvil/issues) for duplicates.
           required: true
     validations:
       required: true
