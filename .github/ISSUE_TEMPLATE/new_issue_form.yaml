@@ -2,7 +2,7 @@ name: Create a new issue
 description: Create a new issue using the latest issue forms
 body:
   - type: markdown
-    attribute:
+    attributes:
       value: "### Thank you for raising the issue, please go through the instructions carefully"
   - type: dropdown
     attributes:
