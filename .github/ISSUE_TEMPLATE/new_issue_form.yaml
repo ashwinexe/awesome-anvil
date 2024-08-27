@@ -1,0 +1,30 @@
+name: Create a new issue
+description: Create a new issue using the latest issue forms
+body:
+  - type: markdown
+    attribute:
+      value: "### Thank you for raising the issue, please go through the instructions carefully"
+  - type: dropdown
+    attributes:
+      label: Issue Type
+      options:
+        - Choose issue type
+        - Contribution
+        - Bug Report
+        - Other
+  - type: textarea
+    attributes:
+      label: Issue Description
+      placeholder: Please elaborate your issue as much as possible
+  - type: textarea
+    attributes:
+      lable: Screenshots and Logs
+      placeholder: Please attach and screenshots and logs in this section
+  - type: checkboxes
+    attributes:
+      label: Checked for duplicate issues?
+      options:
+        - labels: I have checked existing [open issues](https://github.com/ashwinexe/awesome-anvil/issues) for duplicates.
+          required: true
+    validations:
+      required: true
